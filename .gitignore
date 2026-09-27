@@ -1,0 +1,42 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Credentials and Streamlit secrets
+application_default_credentials.json
+service-account*.json
+service_account*.json
+.streamlit/secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Downloaded PDFs (the script downloads them again)
+data/
+
+# Logs and test caches
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
