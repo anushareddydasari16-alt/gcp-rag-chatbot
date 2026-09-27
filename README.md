@@ -17,6 +17,9 @@ The application uses Streamlit for the interface, Vertex AI for embeddings and G
 
 ## Architecture
 
+
+![Google Cloud Certifications Chatbot Architecture](images/architecture.png)
+
 The application follows this workflow:
 
 ```text
